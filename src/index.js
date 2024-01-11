@@ -15,11 +15,9 @@ root.addEventListener('click',()=>{
          
     }
 })
-
- menuButton.forEach(ele=>{
-    ele.addEventListener('click', ()=>{
-        count++;
-        dis.style.visibility = "hidden";
-        dis.style.marginTop = "-130%";
-    })
- })
+let div = document.querySelector('#scrollnav');
+window.addEventListener('scroll',()=>{
+    let {scrollTop, clientHeight,scrollHeight} = document.documentElement;
+    let percentScroll = (scrollTop/(scrollHeight-clientHeight)*100);
+    div.style.width = `${percentScroll}%`; 
+})
