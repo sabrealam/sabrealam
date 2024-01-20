@@ -9,16 +9,19 @@ font-family: 'Tektur', sans-serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Solway', serif;
  */
-
+html{
+    scroll-behavior: smooth;  
+     scroll-padding-top: 5.5rem;
+}
 *{
 margin: 0px;  padding: 0px;
 box-sizing: border-box;
 text-decoration: none; list-style: none;
 /* font-family: 'Tektur', sans-serif; */
 /* font-family: 'Poppins', sans-serif;  */
-scroll-behavior: smooth;
+/* scroll-behavior: smooth; */
 button,i{
-    background-color: transparent;
+    /* background-color: transparent; */
     cursor: pointer;
      
 }
@@ -46,6 +49,7 @@ nav{
     /* border:2px solid red;  */
     font-family: 'Tektur', sans-serif;
     background-color: white;
+    z-index: 10000;
     
 }
 nav>div:first-child{
@@ -161,7 +165,13 @@ nav>div:last-child  > ul > li > a > p{
     img{
         width : 100%;height: 100%;
         border-radius: 50%;
+        transition: 1s ease-in-out;
+        
 
+    }
+    img:hover{
+    border:5px solid rgb(0,145,255);
+    cursor: pointer;
     }
 }
 
@@ -186,20 +196,20 @@ nav>div:last-child  > ul > li > a > p{
 }
 #about>div:nth-child(2){
     width: 80%; height : 80%;
-    /* border:2px solid rgb(218, 218, 218); */
+    /* border:2px solid rgb(0, 0, 0); */
     margin: auto;
     display : flex;
     margin-top: 30px;
 }
 #about>div:nth-child(2)>div{
     width: 50%;height : 100%;
-    /* border:2px solid red; */
+    /* border:2px solid rgb(0, 0, 0); */
     padding: 20px;
 }
 
 #about>div:nth-child(2)>div:first-child{
    width: 35%; height: 100%;
-   /* border:2px solid red; */
+   /* border:2px solid rgb(255, 0, 208); */
    margin: auto;
    img{
        border-radius: 5px;
@@ -264,7 +274,7 @@ nav>div:last-child  > ul > li > a > p{
     }
 }
   #about>div:nth-child(2)>div:last-child>div:nth-child(3)> div:last-child{
-    width : 100%;height : 20%;
+    width : 100%;height : 15%;
     /* border:2px solid red; */
     display : grid ; place-items : center ;
     button{
@@ -283,9 +293,9 @@ nav>div:last-child  > ul > li > a > p{
 /*||||||||||||||||||| Education Section Starts ||||||||||||||| */
 
 #education{
-    width : 100%;height: 88vh;
+    width : 100%;height: 60vh;
     /* border:2px solid red; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
      
 }
 .head{
@@ -306,12 +316,195 @@ nav>div:last-child  > ul > li > a > p{
     width : 100%;height: 350px;
     /* border:2px solid rgb(0, 255, 13); */
     display : grid ; place-items : center ;
+     
 
 
+}
+.educontent>div{
+    width : 80%;height: 70%;
+    /* border:2px solid rgb(0, 0, 0);  */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    gap: 10px;
+}
+.educontent>div> div{
+    /* border:2px solid red; */
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.educontent>div> div > div:first-child{
+    width: 100%;height: 20%;
+    /* border:2px solid  rgb(231, 231, 231); */
+    border-left: 10px solid rgb(0, 145, 255) ;
+    border-radius: 5px;
+    display : flex;
+    align-items:center;
+    h3{
+        margin-left: 10px;
+    }
+}
+.educontent>div> div > div:last-child{
+    width: 100%; height: 80%;
+    /* border:2px solid rgb(0, 0, 0); */
+    padding: 0px 10px;
+    
+}
+.educontent>div> div > div:last-child > p:nth-child(2){
+    /* border:2px solid rgb(0, 21, 255); */
+    .bxs-calendar{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+.educontent>div> div > div:last-child > p:nth-child(3){
+    font-size: 14px; 
+}
+
+
+/* ||||||||||||||||   Experience Section Starts |||||||||||||||| */
+
+
+#experience{
+    width : 100%;height: 50vh;
+    border:2px solid red;
+}
+
+
+
+
+/* ||||||||||||||||   Skills Section Starts |||||||||||||||| */
+
+#skills{
+    width : 100%;height: 88vh;
+    /* border:2px solid red; */
+    font-family: 'poppins','sens serif';
+}
+#skills >div:first-child{
+    width : 100%;height: 10%;
+    /* border:2px solid red; */
+    display : grid ; place-items : center ;
+}
+
+.bar{
+    width : 100%;height: 10vh;
+    /* border:2px solid rgb(0, 0, 0);  */
+}
+.bar > div {
+    width: 70%;height : 100%;
+    margin: auto;
+    display: grid;
+    /* border:2px solid red; */
+    grid-template-columns: repeat(4,1fr);
     div{
-        width : 50%;height: 70%;
-        /* border:2px solid red;  */
-         
+        /* border:2px solid red; */
+        display : flex;
+        justify-content:center;
+        align-items:center;
+        
+    }
+
+    .bx-chevron-down{
+        font-size: 30px;
+    }
+}
+
+.bardetails{
+    width : 80%;height: 60vh;
+    /* border:2px solid rgb(0, 0, 0); */
+    margin: auto;margin-top: 30px;
+}
+
+#bardetailsfir{
+    width : 100%;height : 100%;
+    /* border:2px solid red; */
+    display : flex;
+    flex-wrap: wrap;
+    
+}
+#bardetailsfir > div{
+    width: 300px;height: 50%;
+    border:2px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    p {
+        text-align: center;
+    }
+}
+#bardetailsfir > div > div:first-child{
+    width: 80px;height: 80px; 
+    margin: auto;
+    border-radius: 50%;
+    display : grid ; place-items : center ;
+   
+    .bxl-html5 ,.bxl-javascript , .bxl-css3 , .bxl-react{
+        font-size: 80px;
+        color:rgb(0, 145, 255);
+    }
+     
+    
+}
+#bardetailsfir > div > div:last-child{
+    width: 100%;height: 60px;
+    /* border:2px solid red; */
+    display : flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.side{
+    width: 5px;height: 60px;
+    /* border:2px solid red; */
+    background-color: rgb(0, 145, 255);
+    border-radius: 5px;
+}
+ 
+#pro{
+    width : 90%;height: 10px;
+    border:1px solid rgb(230, 230, 230);
+    border-radius: 20px;
+    display: block;
+    position: relative; 
+    opacity: 0;
+    animation: prog .4s ease-in-out forwards;
+    
+    div{
+    
+        width : 80%;height : 100%;
+        background-color: rgb(0, 145, 255);
+        border-radius: 5px;
+     
+}
+     span{
+        position: absolute;
+        right: 30px; top: -25px;
+        font-size: 10px;
+        background-color: red;
+        z-index: 100;
+        padding: 3px 5px;
+        border-radius: 5px;
+    }
+    span::before{
+        content: '';
+        width: 10px;height: 10px;
+        /* border:2px solid rgb(255, 0, 0); */
+        background-color: red;
+        position: absolute;
+        left: 50%;bottom: -2px;
+        transform: translateX(-50%) rotate(45deg);
+        z-index: -1;
+    }
+}
+
+@keyframes prog {
+    0%{
+        width: 0px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 
@@ -323,6 +516,16 @@ nav>div:last-child  > ul > li > a > p{
 
 
 
+
+@media (max-width:1100px){
+    /* #education{
+        height: 60vh;
+        border:2px solid rgb(0, 0, 0);
+    } */
+    .educontent>div{
+        width : 90%;height: 75%;
+    }
+}
 @media (max-width:1000px){
  nav{
     width: 90%;
@@ -342,6 +545,16 @@ nav>div:last-child  > ul > li > a > p{
 }
 }
 
+@media (max-width:900px){
+    .educontent>div{
+        width : 90%;height: 90%;
+    }
+    .educontent>div> div > div:first-child{
+        h3:first-child{
+            font-size: 15px;
+        }
+    }
+} 
 @media (max-width:850px){ 
     nav {
         width : 100%; 
@@ -418,9 +631,17 @@ nav>div:last-child  > ul > li > a > p{
     } 
 }
 @media (max-width:750px){ 
+    .educontent>div{
+        width : 100%;height: 85%;
+    }
+    #about{
+        height: 870px;
+    }
     #about>div:nth-child(2) {
         display: block; 
-        height: auto;
+        /* height: auto; */
+        height: 700px;
+        /* border:2px solid red; */
     }
     #about>div:nth-child(2)>div:first-child{
         width: 60%;height:300px;
@@ -431,7 +652,8 @@ nav>div:last-child  > ul > li > a > p{
         }
     }
     #about>div:nth-child(2)>div:last-child{
-        width : 100%;
+        width : 100%;height : 480px; 
+        /* border:2px solid rgb(0, 0, 0); */
     }
     #about>div:nth-child(2)>div:last-child>div:nth-child(3)> div:nth-child(2){
         margin-top: 20px;
@@ -440,25 +662,34 @@ nav>div:last-child  > ul > li > a > p{
         margin-top: 40px;
     }
 }
-@media (max-width : 450px){ 
-    #first > div:first-child > div{
-        width: 100%;  
+@media (max-width:660px){
+    #education{
+        height: 91vh;
     }
-    #first > div:last-child{
-        width : 100%;  
-        padding: 0px;
+    .educontent{
+        height: 560px;
     }
-    nav > div:first-child {
-        h1{
-            margin-left: 20px;
-        }
+    .educontent>div{
+        height: 100%;
+        grid-template-columns: repeat(2,1fr);
     }
-    #first{
-        /* width : 110%; */
-        /* border:2px solid red; */
+}
+@media (max-width:650px){
+    #about>div:nth-child(2)>div:last-child{
+        height: 600px;
+    }
+    #about{
+        height: 1000px;
     }
 }
 @media (max-width:550px){
+    #about>div:nth-child(2)>div:last-child{
+        height: 570px;
+        /* border:2px solid red; */
+    }
+    #about{
+        height: 1150px;
+    }
     nav > div:last-child > ul{
         grid-template-columns: repeat(3,1fr);
         font-size: 14px;
@@ -489,3 +720,55 @@ nav>div:last-child  > ul > li > a > p{
 }
 
  
+@media (max-width : 475px){
+    #education{
+        height: 94vh;
+    }
+    .educontent{
+        height: 580px;
+    }
+} 
+@media (max-width : 450px){ 
+    #education{
+        height: 110vh;
+    }
+    .educontent{
+        height: 690px;
+    }
+    .educontent>div{
+        height: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .educontent>div> div > div:last-child > p:nth-child(3){
+        font-size: 13px; 
+    }
+            #first > div:first-child > div{
+                width: 100%;  
+            }
+            #first > div:last-child{
+                width : 100%;  
+                padding: 0px;
+            }
+            nav > div:first-child {
+                h1{
+                    margin-left: 20px;
+                }
+            }
+            #first{
+                /* width : 110%; */
+                /* border:2px solid red; */
+            }
+            #about{
+                height: 1225px;
+            }
+            #about>div:nth-child(2)>div:last-child>div:nth-child(3)> div:last-child{
+                height: 10%;
+                button{
+                    width: 150px;height: 40px;
+                    font-size: 15px;
+                }
+                .bx-download{
+                    font-size: 20px;
+                }
+            }
+        }
