@@ -23,3 +23,10 @@ window.addEventListener('scroll',()=>{
 })
 
  
+let main = document.querySelector('.projectslider ');
+
+
+main.addEventListener('scroll',()=>{ 
+
+     
+})

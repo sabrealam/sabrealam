@@ -16,7 +16,8 @@ html{
 *{
 margin: 0px;  padding: 0px;
 box-sizing: border-box;
-text-decoration: none; list-style: none;
+  list-style: none;
+  text-decoration: none;
 /* font-family: 'Tektur', sans-serif; */
 /* font-family: 'Poppins', sans-serif;  */
 /* scroll-behavior: smooth; */
@@ -28,10 +29,9 @@ button,i{
 
 hr{
     width: 95%;
-    margin: auto;
-    /* border:1px solid silver; */
+    margin: auto; 
     border:1px solid rgb(240, 240, 240);
-    position: sticky;
+    /* position: sticky; */
     top: 80px;
     z-index: 1000;
 }
@@ -43,13 +43,14 @@ a{
 nav{
     position: sticky;
     top: 0px;
-    width : 100%;height: 80px; 
+    width : 100%;height: 60px; 
     display : flex;
     justify-content:space-between;  
     /* border:2px solid red;  */
     font-family: 'Tektur', sans-serif;
     background-color: white;
     z-index: 10000;
+    
     
 }
 nav>div:first-child{
@@ -75,6 +76,10 @@ nav>div:last-child  > ul{
     justify-content:space-around; 
     align-items:center;
     /* border:2px solid rgb(0, 255, 0); */
+    
+}
+nav>div:last-child  > ul > li{
+    text-decoration: none;
 }
 nav>div:last-child  > ul > li > a > i {
     display: none;
@@ -370,9 +375,10 @@ nav>div:last-child  > ul > li > a > p{
 /* ||||||||||||||||   Skills Section Starts |||||||||||||||| */
 
 #skills{
-    width : 100%;height: 88vh;
+    width : 100%;height: 244vh;
     /* border:2px solid red; */
     font-family: 'poppins','sens serif';
+    /* background-color: blue; */ 
 }
 #skills >div:first-child{ /* skills and tools */
     width : 100%;height: 10%;
@@ -380,19 +386,19 @@ nav>div:last-child  > ul > li > a > p{
     display : grid ; place-items : center ;
 }
 
-.bar{
+ #skills >  .bar:nth-child(2){
     width : 100%;height: 90%;
     /* border:2px solid rgb(0, 0, 0);  */
-    p{
-        width: 100%;height: 40px; 
-        font-size: 20px;
-        /* border:2px solid red; */
-        display : flex;justify-content:space-around;
-        align-items:center; 
-        text-decoration: underline;
-    }
+     
 }
- 
+ .bar > p{
+    width: 100%;height: 40px; 
+    font-size: 20px;
+    /* border:2px solid red; */
+    display : flex;justify-content:space-around;
+    align-items:center; 
+    text-decoration: underline;
+ }
 .frontEnd {
     width : 90%;height:450px;
     /* border:2px solid rgb(0, 255, 34); */
@@ -409,7 +415,7 @@ nav>div:last-child  > ul > li > a > p{
     padding: 10px;
     margin: 10px;
     display : grid ; place-items : center ;
-    position: relative;
+     
     border-radius: 5px;
 }
  
@@ -461,7 +467,211 @@ nav>div:last-child  > ul > li > a > p{
     }
 }
 
-  
+#reactangle , #reactangle1 , #reactangle2{
+    width: 80%;height: 100px;
+    /* border:2px solid red; */
+    margin: auto;
+    margin-top: 10px;
+    text-align: center; 
+    font-family: 'poppins';
+    
+}
+/* |||||||||||||||||||  Project Starts ||||||||||||||||||||||||| */
+
+
+ #project{
+    width : 100%;height: 70vh; 
+    /* background-color: lightblue; */
+    /* border:2px dashed red; */
+    display : grid ; place-items : center ;
+    font-family: 'poppins';
+}
+
+.projectslider{
+    width: 70%;height: 350px;
+    /* border:2px solid red; */
+    display : flex; 
+    /* overflow: hidden; */
+    overflow-x: auto;
+}
+.projectslider::-webkit-scrollbar{
+    /* display: none; */
+    /* background-color: red; */
+     
+}
+.projectslider::-webkit-scrollbar-thumb{
+     height: 5px;
+     /* border-radius: 50px; */
+}
+.projectslider::-webkit-scrollbar-button{
+    color:red;
+    border-radius: 50px;
+}
+.projectslider::-webkit-scrollbar-track{
+    color:red;
+}
+.firstcard{
+width : 100%;height : 100%;
+min-width: 100%;
+display : flex;
+padding: 10px;
+justify-content:space-between;
+/* border:2px solid red; */
+}
+
+.firstcard > div:first-child {
+    width: 48%;height : 100%;
+    /* border:1px solid rgb(218, 218, 218); */
+    border-radius: 5px;
+    display : grid ; place-items : center ;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;   
+     img {
+        width : 100%;height : 80%; 
+        /* border:2px solid red; */
+    }
+}
+.firstcard > div:first-child:hover{
+    scale: 1.01;
+    transition: .7s;
+    cursor: pointer;
+    border:1px solid rgb(218, 218, 218);
+}
+.firstcard > div:last-child {
+    width: 48%;height : 100%;
+    /* border:2px solid red; */
+    p{
+        font-size: 14px;
+    }
+}
+
+.vertical{
+    width : 100%;height: 50px;  
+    border-radius: 5px; 
+    /* border:2px solid red; */
+    border-left: 10px solid rgb(0, 145, 255);
+     display : flex;
+     justify-content:flex-start;
+     align-items:center;
+     padding: 5px;
+} 
+
+.vertical>span:first-child{
+    font-weight: bolder;
+}
+.vertical>span:last-child{
+
+}
+
+.buttons{
+    width: 80%;height: 45px;
+    /* border:2px solid red; */
+    display : flex;
+    justify-content:space-around;
+    margin: auto;
+    margin-top: 25px;
+    p:hover{
+        scale: 1.01;
+    }
+    p{
+        width : 40%;height : 100%;
+        border:1px solid rgb(0, 208, 255);
+        padding:20px;
+        display : flex;justify-content:space-around;
+        align-items:center;
+        border-radius: 5px;
+        cursor: pointer;
+        i{
+            font-size: 20px;
+        }
+        
+    }
+
+    
+}
+
+
+
+/* ||||||||||||||   Statistics  Starts ||||||||||||||| */
+
+
+#statistic {
+    width : 100%;height: 71vh;
+    /* border:2px solid red; */
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'popins';
+    p{
+        font-family: 'popins';
+        margin-top: 40px;
+    }
+}
+
+.gitimg{ 
+    width: 80%;height: 150px;
+    /* border:2px solid red; */
+    margin: auto;
+    display : flex;justify-content:space-between;
+    div{
+        width: 32%;height : 100%;
+        /* border:2px solid red; */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        img{
+            width : 100%;height : 100%;
+        }
+    }
+}
+.gitimglong{
+    width: 80%;height: 200px;
+    /* border:2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    img{
+        width : 100%;height : 100%;
+    }
+}
+
+#reactangle2{
+    margin-top: 50px;
+    h1{
+
+        text-decoration: underline; 
+    }
+}
+
+#achievement{
+    width : 100%;height: 75vh;
+    border:2px solid red;
+}
+
+.achievementslider{
+    width: 70%;height: 80%;
+border:2px solid red;
+ margin : auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width:1125px){
@@ -698,7 +908,7 @@ nav>div:last-child  > ul > li > a > p{
         font-size: 14px;
     }
     .toggle{ 
-        top: 20px;
+        top: 10px;
         right: 10px; 
     }
     #about>div:nth-child(2)>div:first-child{
@@ -732,6 +942,9 @@ nav>div:last-child  > ul > li > a > p{
         width: 90%;height: 150px;
         font-size: 14px;
     }
+    #skills{
+        height: 200vh; 
+    }
 }
 @media (max-width : 475px){
     #education{
@@ -739,6 +952,9 @@ nav>div:last-child  > ul > li > a > p{
     }
     .educontent{
         height: 580px;
+    }
+    #skills{
+        height: 200vh; 
     }
 } 
 @media (max-width : 450px){ 
@@ -791,7 +1007,7 @@ nav>div:last-child  > ul > li > a > p{
                 height: 100%;
             }
             #skills{
-                height: 125vh; 
+                height: 350vh; 
             }
             .frontEnd{
                 height:700px;
