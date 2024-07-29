@@ -1,6 +1,11 @@
+![Screenshot 2023-06-24 at 18 10 35](./portfolio.png)
+
 <h1 align="center">Hi 👋, I'm Sabre Alam</h1>
 <h3 align="center">A passionate Full Satack Wev Developer from India...</h3>
-## About me :
+
+
+## About me :-
+
 - <p> A highly motivated individual with a strong interest in the field of Software Development with good presentation and interpersonal skills & Strong analytical capabilities, looking to work in a learning environment along with utilizing my skills and knowledge to the fullest.</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sabrealam&label=Profile%20views&color=0e75b6&style=flat" alt="sabrealam" /> </p>
 
@@ -8,7 +13,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **DSA**
 
 - 👨‍💻 All of my projects are available at [https://sabrealam.github.io/portfolio/#home](https://sabrealam.github.io/portfolio/#home)
 
