@@ -21,19 +21,12 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/https://codepen.io/alam-sabre" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/alam-sabre" height="30" width="40" /></a>
-  
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/sabre-alam-2b3786230" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sabre-alam-2b3786230" height="30" width="40" /></a>
-
 <a href="https://stackoverflow.com/users/https://stackoverflow.com/users/22932265/sabre-alam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/22932265/sabre-alam" height="30" width="40" /></a>
-
 <a href="https://codesandbox.com/https://codesandbox.io/u/sabrealam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="https://codesandbox.io/u/sabrealam" height="30" width="40" /></a>
-
 <a href="https://fb.com/https://www.facebook.com/dev.sabrealam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/dev.sabrealam" height="30" width="40" /></a>
-
 <a href="https://instagram.com/https://www.instagram.com/sabre.alam_/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/sabre.alam_/" height="30" width="40" /></a>
-
 <a href="https://www.hackerrank.com/https://www.hackerrank.com/profile/sabrealam" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/sabrealam" height="30" width="40" /></a>
-
 <a href="https://www.leetcode.com/https://leetcode.com/sabrealam/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/sabrealam/" height="30" width="40" /></a>
 </p>
 
