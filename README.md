@@ -15,7 +15,7 @@
 
 - 🌱 I’m currently learning **DSA**
 
-- 👨‍💻 All of my projects are available at [https://sabrealam.github.io/portfolio/#home](https://sabrealam.github.io/portfolio/#home)
+- 👨‍💻 All of my projects are available at [https://sabrealam.github.io/portfolio/#home](https://sabrealam.github.io/Portfolio/#home)
 
 - 📫 How to reach me **asabre5073@gmail.com**
 
